@@ -1,7 +1,3 @@
-;; =============================================
-;; knowledge_base.clp
-;; =============================================
-
 ;; Rule 1: Suggest compatible pairs explicitly defined
 (defrule MAIN::suggest-compatible-pairs
    (user-input (item-type ?user-item) (color ?user-color) (weather ?weather) (occasion ?occasion) (gender ?gender)) 
